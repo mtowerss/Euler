@@ -8,8 +8,8 @@ int main(){
     while(counter % x != 0){
       counter += smallest;
     }
-    smallest = counter
+    smallest = counter;
   }
 
-  printf("Smallest positive number divisible by 1 to 20 %d", smallest
+  printf("Smallest positive number divisible by 1 to 20 %d", smallest);
 } 
