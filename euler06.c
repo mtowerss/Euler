@@ -7,7 +7,7 @@ int main() {
   int sum = 0;
   for(int i = 0; i <= 100; i++){ 
     sum = (i*i);
-    sumSquares += sum
+    sumSquares += sum;
     squareSum += i;
   }
   finalSum = (squareSum*squareSum) - sumSquares;
